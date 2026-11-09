@@ -8,7 +8,8 @@ td.name.cell,
 td.encdps.cell,
 td.damagePct.cell,
 td.enchps.cell,
-td.healedPct.cell {
+td.healedPct.cell, 
+td.Class.cell {
     font-weight: 700 !important;
     -webkit-text-stroke: 0 !important;
     text-shadow:
