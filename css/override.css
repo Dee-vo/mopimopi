@@ -1,0 +1,52 @@
+div[name="notice"] {display: none!important}
+div[name="More"].btn.flex {opacity: 0;-webkit-transition: .3s}
+div[name="More"].btn.flex:hover {opacity: 1}
+table[name="ACT_2line"], table.tableHeader {text-shadow: -1px 0 2px #795516, 0 1px 2px #795516, 1px 0 2px #795516, 0 -1px 2px #795516}
+td[name="time"] {padding-left: 0.4rem!important;font-variant-numeric: tabular-nums}
+
+td.name.cell,
+td.encdps.cell,
+td.damagePct.cell,
+td.enchps.cell,
+td.healedPct.cell {
+    font-weight: 700 !important;
+    -webkit-text-stroke: 0 !important;
+    text-shadow:
+        -1px 0 black,
+         1px 0 black,
+         0 -1px black,
+         0 1px black,
+        -1px -1px black,
+         1px -1px black,
+        -1px 1px black,
+         1px 1px black,
+        -1px -0.5px black,
+         1px -0.5px black,
+        -1px 0.5px black,
+         1px 0.5px black,
+        -0.5px -1px black,
+         0.5px -1px black,
+        -0.5px 1px black,
+         0.5px 1px black !important;
+}
+
+td.damagePct.cell font.ex,
+td.healedPct.cell font.ex {
+    text-shadow:
+        -1px 0 black,
+         1px 0 black,
+         0 -1px black,
+         0 1px black,
+        -1px -1px black,
+         1px -1px black,
+        -1px 1px black,
+         1px 1px black !important;
+    margin-left: 1px !important;
+}
+
+.tableWrap .bar,
+.tableWrap .oh,
+.tableWrap .ds {
+    filter: brightness(75%) !important;
+    opacity: 1 !important;
+}
