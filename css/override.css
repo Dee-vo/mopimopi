@@ -55,9 +55,9 @@ td.healedPct.cell font.ex {
         rgba(0, 0, 0, 0.5) 0px,
         rgba(0, 0, 0, 0) 400px
     ) !important;
-    background-size: 100% calc(100% - 2px);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: 100% calc(100% - 2px) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 
 /* Overheal and damage shield indicators */
