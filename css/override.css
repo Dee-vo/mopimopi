@@ -45,7 +45,19 @@ td.healedPct.cell font.ex {
     margin-left: 1px !important;
 }
 
-.tableWrap .bar,
+/* Damage and healing bar gradient */
+.tableWrap .bar {
+    opacity: 1 !important;
+    filter: none !important;
+    background-blend-mode: multiply;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5) 0px,
+        rgba(0, 0, 0, 0) 400px
+    ) !important;
+}
+
+/* Overheal and damage shield indicators */
 .tableWrap .oh,
 .tableWrap .ds {
     filter: brightness(75%) !important;
